@@ -1,66 +1,79 @@
-.episode table, th, td{
-	border: none;
+.episode table, th, td {
+  border: none;
 }
-.information table, th, td{
-	border:1px solid black;
-	border-collapse; collapse;
-	background-color: #800080;
+
+.information table, th, td {
+  border: 1px solid black;
+  border-collapse;
+  collapse;
+  background-color: #800080;
 }
+
 td.plain {
-	border: none;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  border: none;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
   background: rgba(204, 204, 204, 0.5);
 }
+
 th {
-	text-align: left;
+  text-align: left;
 }
+
 th.center {
-	text-align: center;
+  text-align: center;
 }
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
+
 li {
-    float: left;
+  float: left;
 }
+
 a:link, a:visited {
-	color: #000000;
+  color: #000000;
 }
+
 a.navigation:link, a.navigation:visited {
-    display: block;
-    width: 200px;
-    font-weight: bold;
-    color: #40E0D0;
-    background-color: #800080;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
+  display: block;
+  width: 200px;
+  font-weight: bold;
+  color: #40E0D0;
+  background-color: #800080;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 a.navigation:hover, a.navigation:active {
-    background-color: #000000;
+  background-color: #000000;
 }
+
 a.navigationa-z:link, a.navigationa-z:visited {
-    display: block;
-    width: 100px;
-    font-weight: bold;
-    color: #40E0D0;
-    background-color: #800080;
-    text-align: center;
-    padding: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
+  display: block;
+  width: 100px;
+  font-weight: bold;
+  color: #40E0D0;
+  background-color: #800080;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 a.navigationa-z:hover, a.navigationa-z:active {
-    background-color: #000000;
+  background-color: #000000;
 }
+
 body {
-  background-color:#FFFFFF;
-	background-image: url("images/hollow3.jpg");
-  background-repeat: no-repeat; background-position: top right;
+  background-color: #FFFFFF;
+  background-image: url("images/hollow3.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
